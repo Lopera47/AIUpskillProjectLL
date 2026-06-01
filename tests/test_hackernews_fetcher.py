@@ -1,5 +1,7 @@
 """Tests for HackerNews fetcher."""
+
 import pytest
+
 from src.fetchers.hackernews_fetcher import HackerNewsFetcher
 from src.models.article import Article
 
@@ -19,7 +21,7 @@ async def test_fetch_returns_articles():
         assert isinstance(article, Article)
         assert article.title
         assert article.url
-        assert article.source == 'hackernews'
+        assert article.source == "hackernews"
 
 
 @pytest.mark.asyncio

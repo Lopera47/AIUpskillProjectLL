@@ -1,7 +1,9 @@
 """Article data model."""
+
 from dataclasses import dataclass
 from datetime import datetime
-#from typing import Optional
+
+# from typing import Optional
 
 
 @dataclass
@@ -45,7 +47,7 @@ if __name__ == "__main__":
         title="Test Article",
         url="https://example.com",
         published_at=datetime.now(),
-        source="test"
+        source="test",
     )
     print(article.to_markdown())
     print("✅ Article model works!")

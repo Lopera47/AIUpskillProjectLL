@@ -4,8 +4,8 @@ import asyncio
 import sys
 
 from src.orchestrator import FetchOrchestrator
-from src.transformers.article_transformer import ArticleTransformer  # ➕ ADD
-from src.storage.markdown_storage import MarkdownStorage  # ➕ ADD
+from src.transformers.article_transformer import ArticleTransformer
+from src.storage.markdown_storage import MarkdownStorage
 
 
 async def main():

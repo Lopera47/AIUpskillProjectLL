@@ -4,6 +4,8 @@ import pytest
 
 from src.fetchers.hackernews_fetcher import HackerNewsFetcher
 from src.models.article import Article
+from src.transformers.article_transformer import ArticleTransformer
+from src.storage.markdown_storage import MarkdownStorage
 
 
 @pytest.mark.asyncio
@@ -40,3 +42,19 @@ async def test_fetch_concurrent():
     assert len(articles) > 0
 
     print(f"⚡ Fetched {len(articles)} articles in {elapsed:.2f}s")
+
+@pytest.mark.asyncio
+async def test_hackernews_fetcher():
+    """Test HackerNews fetcher with new architecture."""
+    transformer = ArticleTransformer()
+    storage = MarkdownStorage("data/test_articles")
+
+    fetcher = HackerNewsFetcher(
+        transformer=transformer,
+        storage=storage
+    )
+
+    articles = await fetcher.fetch()
+
+    assert len(articles) > 0
+    assert all(hasattr(a, 'title') for a in articles)

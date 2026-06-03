@@ -6,12 +6,12 @@ from typing import List
 
 import aiohttp
 
+from src.fetchers.base_fetcher import BaseFetcher
 from src.models.article import Article
 from src.storage.markdown_storage import MarkdownStorage
 from src.utils.rate_limiter import RateLimiter
 
-
-class HackerNewsFetcher:
+class HackerNewsFetcher(BaseFetcher): 
     """
     Fetches top stories from HackerNews API.
 
@@ -20,36 +20,31 @@ class HackerNewsFetcher:
 
     BASE_URL = "https://hacker-news.firebaseio.com/v0"
 
-    def __init__(self):
-        self.storage = MarkdownStorage()
+    def __init__(self, transformer=None, storage=None):
+        super().__init__(transformer, storage)  # ➕ ADD THIS LINE
         self.rate_limiter = RateLimiter(max_concurrent=10)
 
-    async def fetch_and_save(self, limit: int = 30) -> List[Article]:
-        articles = await self.fetch(limit)
-        if articles:
-            self.storage.save(articles, "hackernews_articles.md")
-        return articles
-
-    async def fetch(self, limit: int = 30) -> List[Article]:
+    async def fetch_articles(self) -> List[Article]:
         """
         Fetch top stories from HackerNews.
-
-        Args:
-            limit: Number of stories to fetch (default 30)
 
         Returns:
             List of Article objects
         """
-        print(f"📰 Fetching {limit} stories from HackerNews...")
+        print(f"📰 Fetching from HackerNews...")
 
         # Step 1: Get top story IDs
         story_ids = await self._fetch_top_story_ids()
 
-        # Step 2: Fetch first N stories concurrently
-        articles = await self._fetch_stories(story_ids[:limit])
+        # Step 2: Fetch first 30 stories concurrently
+        articles = await self._fetch_stories(story_ids[:30])
 
         print(f"✅ Fetched {len(articles)} HackerNews stories")
         return articles
+
+    def get_source_name(self) -> str:
+        """Return source name."""
+        return "hackernews"
 
     async def _fetch_top_story_ids(self) -> List[int]:
         """Fetch list of top story IDs."""
@@ -96,19 +91,17 @@ class HackerNewsFetcher:
                             url=data["url"],
                             published_at=datetime.fromtimestamp(data.get("time", 0)),
                             source="hackernews",
-                            summary=data.get("text", "")[:200],  # First 200 chars
+                            summary=data.get("text", "")[:200],
                             score=data.get("score", 0),
                         )
         except Exception as e:
             print(f"⚠️  Failed to fetch story {story_id}: {e}")
             return None
 
-
-# Test it
 async def test_fetch():
     """Quick test of fetcher."""
     fetcher = HackerNewsFetcher()
-    articles = await fetcher.fetch(limit=5)
+    articles = await fetcher.fetch_articles()
 
     print(f"\n📊 Results:")
     for article in articles:

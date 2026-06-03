@@ -1,34 +1,37 @@
 """Fetch articles from RSS feeds."""
 
 import asyncio
+import re
 from datetime import datetime
 from typing import List
 
 import feedparser
 from dateutil import parser as date_parser
 
+from src.fetchers.base_fetcher import BaseFetcher
 from src.models.article import Article
-from src.storage.markdown_storage import MarkdownStorage
 
 
-class RSSFetcher:
+class RSSFetcher(BaseFetcher):
     """
     Fetches articles from RSS feeds.
 
     Uses feedparser library for RSS parsing.
     """
 
-    def __init__(self, feed_url: str):
+    def __init__(self, feed_url: str, transformer, storage):
         """
         Initialize RSS fetcher.
 
         Args:
             feed_url: URL of RSS feed
+            transformer: ArticleTransformer instance
+            storage: MarkdownStorage instance
         """
+        super().__init__(transformer, storage)
         self.feed_url = feed_url
-        self.storage = MarkdownStorage()
 
-    async def fetch(self) -> List[Article]:
+    async def fetch_articles(self) -> List[Article]:
         """
         Fetch articles from RSS feed.
 
@@ -40,7 +43,7 @@ class RSSFetcher:
         # feedparser is sync, run in executor
         loop = asyncio.get_event_loop()
         feed = await loop.run_in_executor(
-            None, feedparser.parse, self.feed_url  # Default executor
+            None, feedparser.parse, self.feed_url
         )
 
         # Parse entries
@@ -52,6 +55,10 @@ class RSSFetcher:
 
         print(f"✅ Fetched {len(articles)} RSS articles")
         return articles
+
+    def get_source_name(self) -> str:
+        """Return source name."""
+        return "rss"
 
     def _parse_entry(self, entry) -> Article:
         """Parse RSS entry to Article."""
@@ -77,8 +84,6 @@ class RSSFetcher:
             # Get summary
             summary = entry.get("summary", entry.get("description", ""))
             # Clean HTML tags (basic)
-            import re
-
             summary = re.sub("<.*?>", "", summary)[:200]
 
             return Article(
@@ -92,25 +97,18 @@ class RSSFetcher:
             print(f"⚠️  Failed to parse entry: {e}")
             return None
 
-    async def fetch_and_save(self) -> List[Article]:
-        """Fetch and save articles."""
-        articles = await self.fetch()
 
-        if articles:
-            # Extract feed name from URL
-            feed_name = self.feed_url.split("//")[-1].split("/")[0]
-            filename = f"rss_{feed_name}_articles.md"
-            self.storage.save(articles, filename)
-
-        return articles
-
-
-# Test it
 async def test_rss():
     """Test RSS fetcher."""
+    from src.transformers.article_transformer import ArticleTransformer
+    from src.storage.markdown_storage import MarkdownStorage
+    
+    transformer = ArticleTransformer()
+    storage = MarkdownStorage()
+    
     # HackerNews RSS feed
-    fetcher = RSSFetcher("https://hnrss.org/frontpage")
-    articles = await fetcher.fetch_and_save()
+    fetcher = RSSFetcher("https://hnrss.org/frontpage", transformer, storage)
+    articles = await fetcher.fetch_articles()
 
     print(f"\n📊 Fetched {len(articles)} articles")
     for article in articles[:3]:

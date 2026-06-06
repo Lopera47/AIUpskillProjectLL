@@ -1,286 +1,288 @@
 # News Articles
 
-**Generated:** 2026-06-03 10:34:25
+**Generated:** 2026-06-06 10:12:35
 
 **Total Articles:** 20
 
 ---
 
-## He Blew the Whistle on DOGE. Then His Brakes Were Cut
+## Moving beyond fork() + exec()
 
 **Source:** rss  
-**URL:** https://www.wired.com/story/he-blew-the-whistle-on-doge-then-his-brakes-were-cut/  
-**Published:** 2026-06-03 15:05  
+**URL:** https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/  
+**Published:** 2026-06-06 14:34  
 **Score:** 0
 
-Article URL: https://www.wired.com/story/he-blew-the-whistle-on-doge-then-his-brakes-were-cut/
-Comments URL: https://news.ycombinator.com/item?id=48385104
-Points: 13
-# Comments: 5
+Article URL: https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/
+Comments URL: https://news.ycombinator.com/item?id=48425528
+Points: 7
+# Comments: 0
 
 ---
 
-## DaVinci Resolve 21
+## Benchmarks in Leipzig
 
 **Source:** rss  
-**URL:** https://www.blackmagicdesign.com/products/davinciresolve/whatsnew  
-**Published:** 2026-06-03 14:18  
+**URL:** https://arxiv.org/abs/2606.05818  
+**Published:** 2026-06-06 14:00  
 **Score:** 0
 
-Article URL: https://www.blackmagicdesign.com/products/davinciresolve/whatsnew
-Comments URL: https://news.ycombinator.com/item?id=48384482
-Points: 37
+Article URL: https://arxiv.org/abs/2606.05818
+Comments URL: https://news.ycombinator.com/item?id=48425247
+Points: 39
 # Comments: 15
 
 ---
 
-## Shopify Is Down
+## US House lawmakers release draft bill to prohibit state AI rules
 
 **Source:** rss  
-**URL:** https://www.shopifystatus.com  
-**Published:** 2026-06-03 14:00  
+**URL:** https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/  
+**Published:** 2026-06-06 13:40  
 **Score:** 0
 
-Article URL: https://www.shopifystatus.com
-Comments URL: https://news.ycombinator.com/item?id=48384221
-Points: 39
-# Comments: 26
+Article URL: https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/
+Comments URL: https://news.ycombinator.com/item?id=48425031
+Points: 15
+# Comments: 2
 
 ---
 
-## I built a ceiling projection mapping of the planes flying over my house
+## Meta Keeps Delaying the Release of Its New AI Model to Developers
 
 **Source:** rss  
-**URL:** https://old.reddit.com/r/nextfuckinglevel/comments/1tvmcin/i_live_in_the_take_off_path_of_sfo_and_built_a/  
-**Published:** 2026-06-03 13:33  
+**URL:** https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c  
+**Published:** 2026-06-06 12:15  
 **Score:** 0
 
-Article URL: https://old.reddit.com/r/nextfuckinglevel/comments/1tvmcin/i_live_in_the_take_off_path_of_sfo_and_built_a/
-Comments URL: https://news.ycombinator.com/item?id=48383823
-Points: 69
-# Comment
+Article URL: https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c
+Comments URL: https://news.ycombinator.com/item?id=48424252
+Points: 23
+# Comments: 7
 
 ---
 
-## Show HN: Tired of duct-taping access control into agent prompts. Here's the fix
+## The new bibliomaniacs
 
 **Source:** rss  
-**URL:** https://github.com/yaodub/cast  
-**Published:** 2026-06-03 13:04  
+**URL:** https://engelsbergideas.com/notebook/the-new-bibliomaniacs/  
+**Published:** 2026-06-06 12:03  
 **Score:** 0
 
-Article URL: https://github.com/yaodub/cast
-Comments URL: https://news.ycombinator.com/item?id=48383471
-Points: 9
-# Comments: 10
+Article URL: https://engelsbergideas.com/notebook/the-new-bibliomaniacs/
+Comments URL: https://news.ycombinator.com/item?id=48424125
+Points: 30
+# Comments: 21
 
 ---
 
-## 32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building
+## Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)
 
 **Source:** rss  
-**URL:** https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building  
-**Published:** 2026-06-03 12:43  
+**URL:** https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer  
+**Published:** 2026-06-06 12:00  
 **Score:** 0
 
-Article URL: https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building
-Comments URL: https://news.ycombinator.com/item?id=48383
-
----
-
-## Meta workers can opt out of being tracked at work up to 30 min
-
-**Source:** rss  
-**URL:** https://www.bbc.com/news/articles/c93x0k194yno  
-**Published:** 2026-06-03 12:42  
-**Score:** 0
-
-Article URL: https://www.bbc.com/news/articles/c93x0k194yno
-Comments URL: https://news.ycombinator.com/item?id=48383220
-Points: 276
-# Comments: 238
-
----
-
-## Piramidal (YC W24) – Software Engineers – NYC Onsite
-
-**Source:** rss  
-**URL:** https://news.ycombinator.com/item?id=48382853  
-**Published:** 2026-06-03 12:00  
-**Score:** 0
-
-Comments URL: https://news.ycombinator.com/item?id=48382853
+Article URL: https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer
+Comments URL: https://news.ycombinator.com/item?id=48424103
 Points: 0
 # Comments: 0
 
 ---
 
-## Every Byte Matters
+## Pokemon Emerald Ported to WebAssembly (100k FPS)
 
 **Source:** rss  
-**URL:** https://fzakaria.com/2026/06/01/every-byte-matters  
-**Published:** 2026-06-03 11:04  
+**URL:** https://pokeemerald.com/  
+**Published:** 2026-06-06 11:12  
 **Score:** 0
 
-Article URL: https://fzakaria.com/2026/06/01/every-byte-matters
-Comments URL: https://news.ycombinator.com/item?id=48382382
-Points: 139
-# Comments: 63
-
----
-
-## Hacking your PC using your speaker without ever touching it
-
-**Source:** rss  
-**URL:** https://blog.nns.ee/2026/06/03/katana-badusb/  
-**Published:** 2026-06-03 10:53  
-**Score:** 0
-
-Article URL: https://blog.nns.ee/2026/06/03/katana-badusb/
-Comments URL: https://news.ycombinator.com/item?id=48382310
-Points: 374
-# Comments: 65
-
----
-
-## What I've learned about the trombone
-
-**Source:** rss  
-**URL:** http://bryanhu.com/blog/posts/what-ive-learned-about-the-trombone/  
-**Published:** 2026-06-03 10:51  
-**Score:** 0
-
-Article URL: http://bryanhu.com/blog/posts/what-ive-learned-about-the-trombone/
-Comments URL: https://news.ycombinator.com/item?id=48382305
-Points: 36
-# Comments: 27
-
----
-
-## PlayStation Architecture
-
-**Source:** rss  
-**URL:** https://www.copetti.org/writings/consoles/playstation/  
-**Published:** 2026-06-03 10:24  
-**Score:** 0
-
-Article URL: https://www.copetti.org/writings/consoles/playstation/
-Comments URL: https://news.ycombinator.com/item?id=48382142
-Points: 125
+Article URL: https://pokeemerald.com/
+Comments URL: https://news.ycombinator.com/item?id=48423762
+Points: 69
 # Comments: 22
 
 ---
 
-## Leiden Declaration on Artificial Intelligence and Mathematics
+## Introduction – Rust for Python Programmers
 
 **Source:** rss  
-**URL:** https://leidendeclaration.ai/  
-**Published:** 2026-06-03 06:33  
+**URL:** https://microsoft.github.io/RustTraining/python-book/  
+**Published:** 2026-06-06 10:52  
 **Score:** 0
 
-Article URL: https://leidendeclaration.ai/
-Comments URL: https://news.ycombinator.com/item?id=48380670
-Points: 78
-# Comments: 31
+Article URL: https://microsoft.github.io/RustTraining/python-book/
+Comments URL: https://news.ycombinator.com/item?id=48423615
+Points: 49
+# Comments: 17
 
 ---
 
-## The Unreasonable Redundancy of Nature's Protein Folds
+## The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy
 
 **Source:** rss  
-**URL:** https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/  
-**Published:** 2026-06-03 03:47  
+**URL:** https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/  
+**Published:** 2026-06-06 09:17  
 **Score:** 0
 
-Article URL: https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/
-Comments URL: https://news.ycombinator.com/item?id=48379669
-Points: 137
-# Comments: 40
+Article URL: https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/
+Comments URL: https://news.ycombinator.com/item?id=48422993
+Points: 120
+# Com
 
 ---
 
-## U of T researchers demonstrate AI worm could target any online device
+## Azure Linux Desktop
 
 **Source:** rss  
-**URL:** https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device  
-**Published:** 2026-06-03 03:47  
+**URL:** https://www.boxofcables.dev/azure-linux-desktop-a-build-2026-mashup-of-wslc-winui-reactor-and-azure-linux-4-0/  
+**Published:** 2026-06-06 07:42  
 **Score:** 0
 
-Article URL: https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device
-Comments URL: https://news.ycombinator.com/item?id=48379664
-Points: 93
+Article URL: https://www.boxofcables.dev/azure-linux-desktop-a-build-2026-mashup-of-wslc-winui-reactor-and-azure-linux-4-0/
+Comments URL: https://news.ycombinator.com/item?id=48422451
+Points: 48
+# Com
+
+---
+
+## S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic
+
+**Source:** rss  
+**URL:** https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/  
+**Published:** 2026-06-06 04:38  
+**Score:** 0
+
+Article URL: https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/
+Comments URL: https://news.ycombinator.com/item?id=48421442
+Points: 
+
+---
+
+## Pre-Modern Armies for Worldbuilders, Part I: Why They Fight
+
+**Source:** rss  
+**URL:** https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/  
+**Published:** 2026-06-06 03:41  
+**Score:** 0
+
+Article URL: https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/
+Comments URL: https://news.ycombinator.com/item?id=48421171
+Points: 121
+# Comments: 39
+
+---
+
+## Lockdown Mode
+
+**Source:** rss  
+**URL:** https://help.openai.com/en/articles/20001061-lockdown-mode  
+**Published:** 2026-06-06 03:36  
+**Score:** 0
+
+Article URL: https://help.openai.com/en/articles/20001061-lockdown-mode
+Comments URL: https://news.ycombinator.com/item?id=48421145
+Points: 76
 # Comments: 33
 
 ---
 
-## Capstone – multi-platform, multi-architecture disassembly framework
+## The back cover of C++: The Language raises questions not answered by front cover
 
 **Source:** rss  
-**URL:** https://www.capstone-engine.org/  
-**Published:** 2026-06-03 01:59  
+**URL:** https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391  
+**Published:** 2026-06-06 03:23  
 **Score:** 0
 
-Article URL: https://www.capstone-engine.org/
-Comments URL: https://news.ycombinator.com/item?id=48378925
-Points: 90
-# Comments: 4
+Article URL: https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391
+Comments URL: https://news.ycombinator.com/item?id=48421079
+Points: 123
+# Comments: 41
 
 ---
 
-## Roku LT Operating System open source distribution
+## The intracies of modern camera lens repair (2024)
 
 **Source:** rss  
-**URL:** https://blog.roku.com/developer/roku-lt-os  
-**Published:** 2026-06-03 01:13  
+**URL:** https://salvagedcircuitry.com/sigma-45mm.html  
+**Published:** 2026-06-06 00:33  
 **Score:** 0
 
-Article URL: https://blog.roku.com/developer/roku-lt-os
-Comments URL: https://news.ycombinator.com/item?id=48378495
-Points: 100
-# Comments: 44
+Article URL: https://salvagedcircuitry.com/sigma-45mm.html
+Comments URL: https://news.ycombinator.com/item?id=48420148
+Points: 206
+# Comments: 71
 
 ---
 
-## AI outperforms law professors in Stanford Law study
+## Tribute to Jiro Yamada, Automotive Artist (1960-2025) [video]
 
 **Source:** rss  
-**URL:** https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/  
-**Published:** 2026-06-02 23:43  
+**URL:** https://www.youtube.com/watch?v=rJ2gQ5Md60U  
+**Published:** 2026-06-05 20:52  
 **Score:** 0
 
-https://law.stanford.edu/wp-content/uploads/2026/06/salinas_...
-
-Comments URL: https://news.ycombinator.com/item?id=48377761
-Points: 347
-# Comments: 296
+Article URL: https://www.youtube.com/watch?v=rJ2gQ5Md60U
+Comments URL: https://news.ycombinator.com/item?id=48418125
+Points: 10
+# Comments: 0
 
 ---
 
-## Pluto.jl 1.0 release – reactive notebook for Julia
+## Gov.uk has replaced Stripe with Dutch provider Adyen
 
 **Source:** rss  
-**URL:** https://discourse.julialang.org/t/pluto-1-0-release/137296  
-**Published:** 2026-06-02 23:09  
+**URL:** https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763  
+**Published:** 2026-06-05 16:55  
 **Score:** 0
 
-Article URL: https://discourse.julialang.org/t/pluto-1-0-release/137296
-Comments URL: https://news.ycombinator.com/item?id=48377496
-Points: 192
-# Comments: 28
+https://gds.blog.gov.uk/2026/06/02/building-for-the-future-m...https://www.adyen.com/press-and-media/adyen-payments-gov-uk
+
+Comments URL: https://news.ycombinator.com/item?id=48415217
+Points: 524
+# Co
 
 ---
 
-## Use your Nvidia GPU's VRAM as swap space on Linux
+## Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency
 
 **Source:** rss  
-**URL:** https://github.com/c0dejedi/nbd-vram  
-**Published:** 2026-06-02 22:55  
+**URL:** https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/  
+**Published:** 2026-06-05 16:18  
 **Score:** 0
 
-Article URL: https://github.com/c0dejedi/nbd-vram
-Comments URL: https://news.ycombinator.com/item?id=48377404
-Points: 396
-# Comments: 105
+Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/
+Comments URL: https://news.ycombinator.com/item?id=48414653
+Points: 370
+# Comments: 
+
+---
+
+## pg_durable: Microsoft open sources in-database durable execution
+
+**Source:** rss  
+**URL:** https://github.com/microsoft/pg_durable  
+**Published:** 2026-06-05 15:59  
+**Score:** 0
+
+Article URL: https://github.com/microsoft/pg_durable
+Comments URL: https://news.ycombinator.com/item?id=48414367
+Points: 432
+# Comments: 98
+
+---
+
+## New method turns ocean water into drinking water, without waste
+
+**Source:** rss  
+**URL:** https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/  
+**Published:** 2026-06-05 15:04  
+**Score:** 0
+
+Article URL: https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/
+Comments URL: https://news.ycombinator.com/item?id=48413500
+Points: 446
+# Comments: 179
 
 ---
 

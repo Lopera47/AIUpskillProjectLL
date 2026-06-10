@@ -9,8 +9,9 @@ beautifulsoup4==4.14.3
 # LLM provider abstraction (Milestone 3 onwards)
 # LiteLLM lets us call Anthropic, OpenAI, Gemini, etc. behind a single API.
 litellm==1.55.0
+google-genai==1.2.0
 
-# Model Context Protocol (Milestone 4)
+# Model Context Protocol (Milestone 4) 
 mcp==1.1.2
 
 # Configuration

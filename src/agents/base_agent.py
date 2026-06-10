@@ -1,8 +1,9 @@
 """Base class for AI agents."""
-from abc import ABC, abstractmethod
-from typing import Dict, Any
-import google.genai as genai
 import os
+from abc import ABC, abstractmethod
+from typing import Any, Dict, Optional
+
+from litellm import completion
 
 
 class BaseAgent(ABC):
@@ -14,26 +15,19 @@ class BaseAgent(ABC):
     - Subclasses implement specific steps
     """
 
-    def __init__(self, model_name: str = "gemini-2.5-flash"):
+    def __init__(self, model: Optional[str] = None):
         """
         Initialize agent.
 
         Args:
-            model_name: Gemini model to use
+            model: LiteLLM model string. Defaults to LITELLM_MODEL from env.
         """
-        self.model_name = model_name
-        self.client = None
-        self._configure_client()
-
-    def _configure_client(self):
-        """Configure Gemini client."""
-        # Get API key from environment
-        api_key = os.getenv('GOOGLE_API_KEY')
-        if not api_key:
-            raise ValueError("GOOGLE_API_KEY not found in environment")
-
-        # Create client with API key
-        self.client = genai.Client(api_key=api_key)
+        self.model = model or os.getenv("LITELLM_MODEL")
+        if not self.model:
+            raise ValueError(
+                "No model configured. Set LITELLM_MODEL in .env "
+                "or pass `model=` to the agent constructor."
+            )
 
     async def execute(self, input_path: str, output_path: str) -> Dict[str, Any]:
         """
@@ -65,57 +59,47 @@ class BaseAgent(ABC):
         print(f"✅ {self.__class__.__name__} complete")
 
         return {
-            'input_path': input_path,
-            'output_path': output_path,
-            'success': True
+            "input_path": input_path,
+            "output_path": output_path,
+            "success": True,
         }
 
     @abstractmethod
     async def _load_context(self, input_path: str) -> Dict[str, Any]:
-        """
-        Load input context.
-
-        Subclasses implement how to read their input.
-        """
+        """Load input context. Subclasses implement how to read their input."""
         pass
 
     @abstractmethod
     async def _process(self, context: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Process context with LLM.
-
-        Subclasses implement their specific logic.
-        """
+        """Process context with LLM. Subclasses implement their specific logic."""
         pass
 
     @abstractmethod
     async def _save_result(self, result: Dict[str, Any], output_path: str):
-        """
-        Save processing result.
-
-        Subclasses implement how to save their output.
-        """
+        """Save processing result. Subclasses implement how to save their output."""
         pass
 
-    def _call_llm(self, prompt: str) -> str:
+    def _call_llm(self, prompt: str, system: Optional[str] = None) -> str:
         """
-        Call Gemini with prompt.
+        Call the configured LLM via LiteLLM.
 
         Helper method for subclasses.
 
         Args:
-            prompt: Prompt to send
-            system_instruction: Optional system prompt
+            prompt: User prompt.
+            system: Optional system prompt.
 
         Returns:
-            LLM response text
+            LLM response text.
         """
+        messages = []
+        if system:
+            messages.append({"role": "system", "content": system})
+        messages.append({"role": "user", "content": prompt})
+
         try:
-            response = self.client.models.generate_content(
-                model=self.model_name,
-                contents=prompt
-            )
-            return response.text
+            response = completion(model=self.model, messages=messages)
+            return response.choices[0].message.content
         except Exception as e:
             print(f"❌ LLM call failed: {e}")
             raise

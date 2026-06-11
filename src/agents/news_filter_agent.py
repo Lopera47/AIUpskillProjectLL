@@ -15,9 +15,9 @@ class NewsFilterAgent(BaseAgent):
     saves filtered articles.
     """
     
-    def __init__(self):
-        super().__init__()
-        self.relevance_threshold = 6  # Out of 10
+    def __init__(self, tools=None):
+        super().__init__(tools=tools)
+        self.relevance_threshold = 6 # out of 10
     
     async def _load_context(self, input_path: str) -> Dict[str, Any]:
         """

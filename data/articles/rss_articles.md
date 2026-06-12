@@ -1,288 +1,282 @@
 # News Articles
 
-**Generated:** 2026-06-06 10:12:35
+**Generated:** 2026-06-12 16:34:57
 
 **Total Articles:** 20
 
 ---
 
-## Moving beyond fork() + exec()
+## Palantir loses legal challenge against Swiss investigative magazine
 
 **Source:** rss  
-**URL:** https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/  
-**Published:** 2026-06-06 14:34  
+**URL:** https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979  
+**Published:** 2026-06-12 20:39  
 **Score:** 0
 
-Article URL: https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/
-Comments URL: https://news.ycombinator.com/item?id=48425528
-Points: 7
-# Comments: 0
-
----
-
-## Benchmarks in Leipzig
-
-**Source:** rss  
-**URL:** https://arxiv.org/abs/2606.05818  
-**Published:** 2026-06-06 14:00  
-**Score:** 0
-
-Article URL: https://arxiv.org/abs/2606.05818
-Comments URL: https://news.ycombinator.com/item?id=48425247
-Points: 39
-# Comments: 15
-
----
-
-## US House lawmakers release draft bill to prohibit state AI rules
-
-**Source:** rss  
-**URL:** https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/  
-**Published:** 2026-06-06 13:40  
-**Score:** 0
-
-Article URL: https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/
-Comments URL: https://news.ycombinator.com/item?id=48425031
-Points: 15
+Article URL: https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979
+Comments URL: https://news.ycombinator.com/item?id=48509182
+Points: 32
 # Comments: 2
 
 ---
 
-## Meta Keeps Delaying the Release of Its New AI Model to Developers
+## Mmorpg World of ClaudeCraft, vibe coded with Fable 5
 
 **Source:** rss  
-**URL:** https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c  
-**Published:** 2026-06-06 12:15  
+**URL:** https://worldofclaudecraft.com/  
+**Published:** 2026-06-12 20:34  
 **Score:** 0
 
-Article URL: https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c
-Comments URL: https://news.ycombinator.com/item?id=48424252
-Points: 23
-# Comments: 7
+Article URL: https://worldofclaudecraft.com/
+Comments URL: https://news.ycombinator.com/item?id=48509143
+Points: 9
+# Comments: 2
 
 ---
 
-## The new bibliomaniacs
+## Can I Buy Your KV Cache?
 
 **Source:** rss  
-**URL:** https://engelsbergideas.com/notebook/the-new-bibliomaniacs/  
-**Published:** 2026-06-06 12:03  
+**URL:** https://arxiv.org/abs/2606.13361  
+**Published:** 2026-06-12 20:14  
 **Score:** 0
 
-Article URL: https://engelsbergideas.com/notebook/the-new-bibliomaniacs/
-Comments URL: https://news.ycombinator.com/item?id=48424125
-Points: 30
-# Comments: 21
+Article URL: https://arxiv.org/abs/2606.13361
+Comments URL: https://news.ycombinator.com/item?id=48508949
+Points: 5
+# Comments: 4
 
 ---
 
-## Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)
+## Swift at Apple: Migrating the TrueType Hinting Interpreter
 
 **Source:** rss  
-**URL:** https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer  
-**Published:** 2026-06-06 12:00  
+**URL:** https://www.swift.org/blog/migrating-truetype-hinting-to-swift/  
+**Published:** 2026-06-12 19:54  
 **Score:** 0
 
-Article URL: https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer
-Comments URL: https://news.ycombinator.com/item?id=48424103
-Points: 0
-# Comments: 0
+Article URL: https://www.swift.org/blog/migrating-truetype-hinting-to-swift/
+Comments URL: https://news.ycombinator.com/item?id=48508726
+Points: 35
+# Comments: 12
 
 ---
 
-## Pokemon Emerald Ported to WebAssembly (100k FPS)
+## Cosmodial Sky Atlas
 
 **Source:** rss  
-**URL:** https://pokeemerald.com/  
-**Published:** 2026-06-06 11:12  
+**URL:** https://killedbyapixel.github.io/Cosmodial/  
+**Published:** 2026-06-12 18:20  
 **Score:** 0
 
-Article URL: https://pokeemerald.com/
-Comments URL: https://news.ycombinator.com/item?id=48423762
-Points: 69
-# Comments: 22
+Article URL: https://killedbyapixel.github.io/Cosmodial/
+Comments URL: https://news.ycombinator.com/item?id=48507571
+Points: 21
+# Comments: 1
 
 ---
 
-## Introduction – Rust for Python Programmers
+## Most Beautiful Will Ever Made (1936)
 
 **Source:** rss  
-**URL:** https://microsoft.github.io/RustTraining/python-book/  
-**Published:** 2026-06-06 10:52  
+**URL:** https://paperspast.natlib.govt.nz/newspapers/DOM19360307.2.43  
+**Published:** 2026-06-12 18:15  
 **Score:** 0
 
-Article URL: https://microsoft.github.io/RustTraining/python-book/
-Comments URL: https://news.ycombinator.com/item?id=48423615
-Points: 49
-# Comments: 17
+Article URL: https://paperspast.natlib.govt.nz/newspapers/DOM19360307.2.43
+Comments URL: https://news.ycombinator.com/item?id=48507499
+Points: 9
+# Comments: 1
 
 ---
 
-## The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy
+## I Am Not a Reverse Centaur
 
 **Source:** rss  
-**URL:** https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/  
-**Published:** 2026-06-06 09:17  
+**URL:** https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur  
+**Published:** 2026-06-12 17:53  
 **Score:** 0
 
-Article URL: https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/
-Comments URL: https://news.ycombinator.com/item?id=48422993
-Points: 120
-# Com
+Article URL: https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur
+Comments URL: https://news.ycombinator.com/item?id=48507282
+Points: 199
+# Comments: 134
 
 ---
 
-## Azure Linux Desktop
+## "Don't You Just Upload It to ChatGPT?"
 
 **Source:** rss  
-**URL:** https://www.boxofcables.dev/azure-linux-desktop-a-build-2026-mashup-of-wslc-winui-reactor-and-azure-linux-4-0/  
-**Published:** 2026-06-06 07:42  
+**URL:** https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/  
+**Published:** 2026-06-12 17:52  
 **Score:** 0
 
-Article URL: https://www.boxofcables.dev/azure-linux-desktop-a-build-2026-mashup-of-wslc-winui-reactor-and-azure-linux-4-0/
-Comments URL: https://news.ycombinator.com/item?id=48422451
-Points: 48
-# Com
+Article URL: https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/
+Comments URL: https://news.ycombinator.com/item?id=48507278
+Points: 190
+# Comments: 165
 
 ---
 
-## S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic
+## How to setup a local coding agent on macOS
 
 **Source:** rss  
-**URL:** https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/  
-**Published:** 2026-06-06 04:38  
+**URL:** https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos  
+**Published:** 2026-06-12 17:34  
 **Score:** 0
 
-Article URL: https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/
-Comments URL: https://news.ycombinator.com/item?id=48421442
-Points: 
+Article URL: https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos
+Comments URL: https://news.ycombinator.com/item?id=48507020
+Points: 147
+# Comments: 50
 
 ---
 
-## Pre-Modern Armies for Worldbuilders, Part I: Why They Fight
+## Pirates, a naval warfare game inspired by Sid Meier's Pirates
 
 **Source:** rss  
-**URL:** https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/  
-**Published:** 2026-06-06 03:41  
+**URL:** https://piwodlaiwo.github.io/pirates/  
+**Published:** 2026-06-12 17:07  
 **Score:** 0
 
-Article URL: https://acoup.blog/2026/06/05/collections-pre-modern-armies-for-worldbuilders-part-i-why-they-fight/
-Comments URL: https://news.ycombinator.com/item?id=48421171
-Points: 121
-# Comments: 39
+Article URL: https://piwodlaiwo.github.io/pirates/
+Comments URL: https://news.ycombinator.com/item?id=48506659
+Points: 129
+# Comments: 55
 
 ---
 
-## Lockdown Mode
+## Law Enforcement's "Warrior" Problem (2015)
 
 **Source:** rss  
-**URL:** https://help.openai.com/en/articles/20001061-lockdown-mode  
-**Published:** 2026-06-06 03:36  
+**URL:** https://harvardlawreview.org/forum/vol-128/law-enforcements-warrior-problem/  
+**Published:** 2026-06-12 17:04  
 **Score:** 0
 
-Article URL: https://help.openai.com/en/articles/20001061-lockdown-mode
-Comments URL: https://news.ycombinator.com/item?id=48421145
-Points: 76
+Article URL: https://harvardlawreview.org/forum/vol-128/law-enforcements-warrior-problem/
+Comments URL: https://news.ycombinator.com/item?id=48506616
+Points: 74
+# Comments: 59
+
+---
+
+## Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents
+
+**Source:** rss  
+**URL:** https://bitboard.work/  
+**Published:** 2026-06-12 16:58  
+**Score:** 0
+
+We’re Connor and Ambar from BitBoard (https://bitboard.work). BitBoard is an agentic analytics workspace. We give you the infrastructure and visualization layer to analyze data with AI.Today, we’re la
+
+---
+
+## Looking Forward to Postgres 19: It's About Time
+
+**Source:** rss  
+**URL:** https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time  
+**Published:** 2026-06-12 16:44  
+**Score:** 0
+
+Article URL: https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time
+Comments URL: https://news.ycombinator.com/item?id=48506372
+Points: 112
 # Comments: 33
 
 ---
 
-## The back cover of C++: The Language raises questions not answered by front cover
+## A PDF that changes based on how its read
 
 **Source:** rss  
-**URL:** https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391  
-**Published:** 2026-06-06 03:23  
+**URL:** https://sgaud.com/texts/pdf  
+**Published:** 2026-06-12 16:32  
 **Score:** 0
 
-Article URL: https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391
-Comments URL: https://news.ycombinator.com/item?id=48421079
-Points: 123
-# Comments: 41
+Article URL: https://sgaud.com/texts/pdf
+Comments URL: https://news.ycombinator.com/item?id=48506209
+Points: 99
+# Comments: 54
 
 ---
 
-## The intracies of modern camera lens repair (2024)
+## Where Did Earth Get Its Oceans? Maybe It Made Them Itself
 
 **Source:** rss  
-**URL:** https://salvagedcircuitry.com/sigma-45mm.html  
-**Published:** 2026-06-06 00:33  
+**URL:** https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/  
+**Published:** 2026-06-12 15:32  
 **Score:** 0
 
-Article URL: https://salvagedcircuitry.com/sigma-45mm.html
-Comments URL: https://news.ycombinator.com/item?id=48420148
-Points: 206
-# Comments: 71
+Article URL: https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/
+Comments URL: https://news.ycombinator.com/item?id=48505452
+Points: 86
+# Comments: 50
 
 ---
 
-## Tribute to Jiro Yamada, Automotive Artist (1960-2025) [video]
+## You can power on a Mac remotely
 
 **Source:** rss  
-**URL:** https://www.youtube.com/watch?v=rJ2gQ5Md60U  
-**Published:** 2026-06-05 20:52  
+**URL:** https://www.jeffgeerling.com/blog/2026/power-on-your-mac-remotely/  
+**Published:** 2026-06-12 15:31  
 **Score:** 0
 
-Article URL: https://www.youtube.com/watch?v=rJ2gQ5Md60U
-Comments URL: https://news.ycombinator.com/item?id=48418125
-Points: 10
-# Comments: 0
+Article URL: https://www.jeffgeerling.com/blog/2026/power-on-your-mac-remotely/
+Comments URL: https://news.ycombinator.com/item?id=48505435
+Points: 28
+# Comments: 18
 
 ---
 
-## Gov.uk has replaced Stripe with Dutch provider Adyen
+## Show HN: StackScope – I crawled over 40k indie launches to see what they ship
 
 **Source:** rss  
-**URL:** https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763  
-**Published:** 2026-06-05 16:55  
+**URL:** https://stackscope.dev/  
+**Published:** 2026-06-12 15:26  
 **Score:** 0
 
-https://gds.blog.gov.uk/2026/06/02/building-for-the-future-m...https://www.adyen.com/press-and-media/adyen-payments-gov-uk
-
-Comments URL: https://news.ycombinator.com/item?id=48415217
-Points: 524
-# Co
+Hey all, I built StackScope, a crawler/catalogue that looks at new product launches and shows what they were built with.It watches launches from Product Hunt, Show HN, and PeerPush, then crawls the pu
 
 ---
 
-## Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency
+## CRISPR tech selectively shreds cancer cells, including "undruggable" cancers
 
 **Source:** rss  
-**URL:** https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/  
-**Published:** 2026-06-05 16:18  
+**URL:** https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/  
+**Published:** 2026-06-12 15:15  
 **Score:** 0
 
-Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/
-Comments URL: https://news.ycombinator.com/item?id=48414653
-Points: 370
-# Comments: 
+Article URL: https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/
+Comments URL: https://news.ycombinator.com/item?id=48505231
+Points: 533
+# Comments: 140
 
 ---
 
-## pg_durable: Microsoft open sources in-database durable execution
+## Introduction to UEFI HTTP(s) Boot with QEMU/OVMF
 
 **Source:** rss  
-**URL:** https://github.com/microsoft/pg_durable  
-**Published:** 2026-06-05 15:59  
+**URL:** https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf/  
+**Published:** 2026-06-12 14:50  
 **Score:** 0
 
-Article URL: https://github.com/microsoft/pg_durable
-Comments URL: https://news.ycombinator.com/item?id=48414367
-Points: 432
-# Comments: 98
+Article URL: https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf/
+Comments URL: https://news.ycombinator.com/item?id=48504929
+Points: 59
+# Comments: 17
 
 ---
 
-## New method turns ocean water into drinking water, without waste
+## Slightly reducing the sloppiness of AI generated front end
 
 **Source:** rss  
-**URL:** https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/  
-**Published:** 2026-06-05 15:04  
+**URL:** https://envs.net/~volpe/blog/posts/reduce-slop.html  
+**Published:** 2026-06-12 14:48  
 **Score:** 0
 
-Article URL: https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/
-Comments URL: https://news.ycombinator.com/item?id=48413500
-Points: 446
-# Comments: 179
+Article URL: https://envs.net/~volpe/blog/posts/reduce-slop.html
+Comments URL: https://news.ycombinator.com/item?id=48504912
+Points: 143
+# Comments: 97
 
 ---
 

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "article": "OpenAI releases GPT-4 with improved reasoning capabilities. The model shows significant improvements in complex problem solving and understanding nuanced language. Early tests show GPT-4 performs better on standardized tests compared to GPT-3.5.",
+    "reference_summary": "OpenAI releases GPT-4 with better reasoning abilities and improved performance on tests."
+  },
+  {
+    "id": 2,
+    "article": "Tesla announces record quarterly profits driven by increased electric vehicle sales. The company's expansion into new markets contributed to revenue growth. Analysts predict continued growth for the EV market.",
+    "reference_summary": "Tesla reports record profits from strong EV sales and market expansion."
+  },
+  {
+    "id": 3,
+    "article": "Scientists discover new method to capture carbon dioxide from the atmosphere. The technology could help mitigate climate change effects. Companies are already investing in scaling the technology.",
+    "reference_summary": "New carbon capture technology shows promise for climate change mitigation."
+  },
+  {
+    "id": 4,
+    "article": "Machine learning models show potential in medical diagnosis. Researchers trained models on thousands of patient records. The AI system achieved 95% accuracy in identifying diseases.",
+    "reference_summary": "AI models achieve 95% accuracy in medical diagnosis tasks."
+  },
+  {
+    "id": 5,
+    "article": "The global semiconductor shortage impacts tech manufacturing. Supply chain disruptions continue to affect production timelines. Companies are diversifying their suppliers to reduce risk.",
+    "reference_summary": "Semiconductor shortage continues affecting tech manufacturing worldwide."
+  }
+]

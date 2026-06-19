@@ -5,7 +5,15 @@ from datasets import load_dataset
 from rouge_score import rouge_scorer
 from pathlib import Path
 from litellm import completion
-import json
+from dotenv import load_dotenv  # Add this import
+
+# Load .env file
+load_dotenv()
+
+# Get token from env
+hf_token = os.getenv("HF_TOKEN")
+if hf_token:
+    os.environ['HF_TOKEN'] = hf_token
 
 
 class CNNRougeEvaluator:
@@ -62,8 +70,9 @@ class CNNRougeEvaluator:
         # Load dataset
         print(f"\n📥 Loading CNN/DailyMail dataset...")
         try:
-            dataset = load_dataset("cnn_dailymail", "3.0.0")
-            #dataset = load_dataset("samsum", split="validation")
+            #dataset = load_dataset("cnn_dailymail/cnn_dailymail", "3.0.0", split="validation")
+            dataset = load_dataset("ccdv/cnn_dailymail", "3.0.0", split="validation", trust_remote_code=True)
+            #dataset = load_dataset("GEM/xsum", split="validation")
             print(f"✅ Dataset loaded")
         except Exception as e:
             print(f"❌ Error loading dataset: {e}")
